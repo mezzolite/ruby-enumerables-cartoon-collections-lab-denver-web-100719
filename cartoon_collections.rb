@@ -14,11 +14,11 @@ def long_planeteer_calls(calls)
  
 end
 
-def find_the_cheese(string_cheese)
-  cheese_types = ["cheddar", "gouda", "camembert"]
- if string_cheese.include?(cheese_types)
-    return string_cheese.slice(cheese_types.index)
-  end
-else
-  nil
-end
+# def find_the_cheese(string_cheese)
+#   cheese_types = ["cheddar", "gouda", "camembert"]
+# if string_cheese.include?(cheese_types)
+#     return string_cheese.slice(cheese_types.index)
+#   end
+# else
+#   nil
+# end
