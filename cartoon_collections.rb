@@ -17,11 +17,13 @@ end
 
 def find_the_cheese(array)
    cheese_types = ["cheddar", "gouda", "camembert"]
-   cheese_types.map do |cheese| 
+   
+   found_cheese = cheese_types.map do |cheese| 
  if array.include?(cheese)
   cheese
 else
   nil
 end
-end.first
+end
+found_cheese.first
   end
