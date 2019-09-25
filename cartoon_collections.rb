@@ -25,5 +25,5 @@ else
   nil
 end
 end
-found_cheese.first
+found_cheese.compact.first
   end
